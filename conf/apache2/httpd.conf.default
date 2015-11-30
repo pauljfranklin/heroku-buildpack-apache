@@ -202,8 +202,6 @@ Group daemon
 ProxyPass /lasapi http://api.liftalertonline.com
 ProxyPassReverse /lasapi http://api.liftalertonline.com
 # Enable PHP parsing in .html
-AddHandler php-script .php .html .htm
-AddHandler php5-script .php .html .htm
 AddType application/x-httpd-php .htm
 AddType application/x-httpd-php .html
 
