@@ -197,6 +197,11 @@ Group daemon
 # virtual host being defined.
 #
 
+# (11/30/2015) PJF
+# Setup access for "lasapi" link
+ProxyPass /lasapi http://api.liftalertonline.com
+ProxyPassReverse /lasapi http://api.liftalertonline.com
+
 #
 # ServerAdmin: Your address, where problems with the server should be
 # e-mailed.  This address appears on some server-generated pages, such
