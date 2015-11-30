@@ -201,9 +201,6 @@ Group daemon
 # Setup access for "lasapi" link
 ProxyPass /lasapi http://api.liftalertonline.com
 ProxyPassReverse /lasapi http://api.liftalertonline.com
-# Enable PHP parsing in .html
-AddType application/x-httpd-php .htm
-AddType application/x-httpd-php .html
 
 #
 # ServerAdmin: Your address, where problems with the server should be
